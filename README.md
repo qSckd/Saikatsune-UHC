@@ -15,6 +15,7 @@ A powerful and feature-rich UHC Core for Minecraft 1.8, inspired by and built to
 - 💬 **Broadcasts & Messages** – Rich in-game messaging and notifications.
 - 📈 **Statistics & Leaderboards** – Track player performance over time.
 - 🛠️ **Bug-tested & Optimized** – Stable performance for large servers.
+- 🌊 **Scoreboard, menus, and more.** – Customizable, 
 
 ## Installation
 
@@ -30,6 +31,7 @@ A powerful and feature-rich UHC Core for Minecraft 1.8, inspired by and built to
 ## Credits
 
 - **1**: Maths
-- **2**: *Saikatsune UHC (sUHC)*
+- **2**: *Saikatsune | https://github.com/Saikatsune/UHC*
+- **3**: maaattn (me) | Keeping it up-to-date.
 
 Built with love for the UHC community. Enjoy competitive Ultra Hardcore the way it's meant to be played!
