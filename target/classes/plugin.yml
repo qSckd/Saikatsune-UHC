@@ -1,0 +1,78 @@
+name: UHC
+author: Saikatsune
+version: 1.0
+main: net.saikatsune.uhc.Game
+
+softdepend:
+  - LunarClient-API
+  - CheatBreakerAPI
+
+commands:
+  worldeditor:
+    permission: uhc.host
+  configeditor:
+    permission: uhc.host
+  bordereditor:
+    permission: uhc.host
+  scenarioseditor:
+    permission: uhc.host
+  setup:
+    permission: uhc.host
+  mutechat:
+    permission: uhc.host
+  start:
+    permission: uhc.host
+  time:
+    permission: uhc.host
+  heal:
+    permission: uhc.host
+  rates:
+    permission: uhc.host
+    aliases: [rate]
+  staff:
+    permission: uhc.host
+    aliases: [mod, modmode, staffmode]
+  latescatter:
+    aliases: [scatter, latejoin, lateplay]
+  respawn:
+    permission: uhc.host
+    aliases: [revive]
+  alerts:
+    permission: uhc.host
+    aliases: [togglealerts]
+  whitelist:
+    permission: uhc.host
+    aliases: [wl]
+  starterfood:
+    permission: uhc.host
+  giveall:
+    permission: uhc.host
+  helpopmute:
+    permission: uhc.host
+  helpopunmute:
+    permission: uhc.host
+  forceenable:
+    permission: uhc.host
+  host:
+    permission: uhc.host
+  disqualify:
+    permission: uhc.host
+  practice:
+    aliases: [prac, arena]
+  health:
+    aliases: [h]
+  teamchat:
+    aliases: [tc]
+  sendcoords:
+    aliases: [sc, rally, tl]
+  backpack:
+    aliases: [bp]
+  killstop:
+    aliases: [kt]
+  config:
+    aliases: [gameconfig, gameinfo, info, uhcinfo, uhc]
+  team:
+  list:
+  helpop:
+  scenarios:
+  stats:

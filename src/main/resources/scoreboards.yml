@@ -1,0 +1,80 @@
+#Placeholders:
+#
+#Players: %players%
+#Game Type: %gameType%
+#Kills: %kills%
+#Scattering: %scattering%
+#Scattered: %scattered%
+#Game Time: %gameTime%
+#Border: %borderSize%
+#Spectators: %spectators%
+#Teams Alive: %teamsAlive%
+#Team Kills: %teamKills%
+#Host: %gameHost%
+
+
+SCOREBOARDS:
+  TITLE: '%uhcType%'
+  SOLO:
+    LOBBY:
+      LINES:
+        - '&7&m------------------'
+        - '&fOnline: &6%players%'
+        - '&fType: &6%gameType%'
+        - ''
+        - '&6%scenarios%'
+        - ''
+        - '&6&omazemc.es'
+        - '&7&m------------------'
+    SCATTERING:
+      LINES:
+        - '&7&m------------------'
+        - '&fScattering: &6%scattering%'
+        - '&fScattered: &6%scattered%'
+        - ''
+        - '&fHosted By: &6%gameHost%'
+        - '&fYour Elo: &6%your_elo%'
+        - ''
+        - '&6&omazemc.es'
+        - '&7&m------------------'
+    INGAME:
+      LINES:
+        - '&7&m------------------'
+        - '&fGame Time: &6%gameTime%'
+        - '&fRemaining: &6%players%'
+        - '&fKills: &6%kills%'
+        - '&fBorder: &6%borderSize%'
+        - '&fSpectators: &6%spectators%'
+        - ''
+        - '&6&omazemc.es'
+        - '&7&m------------------'
+  TEAMS:
+    LOBBY:
+      LINES:
+        - '&7&m------------------'
+        - '&fOnline: &6%players%'
+        - '&fType: &6%gameType%'
+        - ''
+        - '&6&omazemc.es'
+        - '&7&m------------------'
+    SCATTERING:
+      LINES:
+        - '&7&m------------------'
+        - '&fScattering: &6%scattering%'
+        - '&fScattered: &6%scattered%'
+        - ''
+        - '&fHosted By: &6%gameHost%'
+        - '&fYour Elo: &6%your_elo%'
+        - ''
+        - '&6&omazemc.es'
+        - '&7&m------------------'
+    INGAME:
+      LINES:
+        - '&7&m------------------'
+        - '&fGame Time: &6%gameTime%'
+        - '&fRemaining: &6%players%'
+        - '&fKills: &6%kills%'
+        - '&fBorder: &6%borderSize%'
+        - ''
+        - '&6&omazemc.es'
+        - '&7&m------------------'

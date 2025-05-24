@@ -1,0 +1,7 @@
+NAMETAGS:
+  LUNAR:
+    ENABLED: true
+    NO_CLEAN:
+      - "&8(&c!&8) &c%player_name%"
+    DEFAULT:
+      - "%player_name%"
