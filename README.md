@@ -20,7 +20,7 @@ A powerful and feature-rich UHC Core for Minecraft 1.8, inspired by and built to
 - 💬 **Broadcasts & Messages** – Rich in-game messaging and notifications.
 - 📈 **Statistics & Leaderboards** – Track player performance over time.
 - 🛠️ **Bug-tested & Optimized** – Stable performance for large servers.
-- 🌊 **Scoreboard, menus, and more.** – Customizable and easy.
+- 🌊 **Scoreboard, menus, and more.** – Customizable and easy to use.
 
 | Command                | Permission     | Aliases                              | Description                                      |
 |------------------------|----------------|---------------------------------------|--------------------------------------------------|
