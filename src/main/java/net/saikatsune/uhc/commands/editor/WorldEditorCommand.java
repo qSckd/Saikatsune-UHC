@@ -60,7 +60,7 @@ public class WorldEditorCommand implements CommandExecutor, Listener {
                                 if(Bukkit.getWorld("uhc_world").getPlayers().size() < 1) {
                                     game.getWorldManager().deleteWorld("uhc_world");
                                 } else {
-                                    player.sendMessage(prefix + ChatColor.RED + "Cannot delete world because there are players on it!");
+                                    player.sendMessage(prefix + ChatColor.RED + "Cannot delete this world because there are players on it!");
                                 }
                             } else {
                                 player.sendMessage(prefix + ChatColor.RED + "The UHC world does not exist!");
@@ -73,7 +73,7 @@ public class WorldEditorCommand implements CommandExecutor, Listener {
                             if(Bukkit.getWorld("uhc_nether") == null) {
                                 game.getWorldManager().createWorld("uhc_nether", World.Environment.NETHER, WorldType.NORMAL);
                             } else {
-                                player.sendMessage(prefix + ChatColor.RED + "The UHC nether does already exist!");
+                                player.sendMessage(prefix + ChatColor.RED + "The UHC nether already exist!");
                             }
                         } else if(event.getCurrentItem().getItemMeta().getDisplayName().equalsIgnoreCase(mColor + "Load Nether")) {
                             event.setCancelled(true);
