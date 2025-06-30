@@ -27,7 +27,7 @@ public class StarterFoodCommand implements CommandExecutor {
                         Bukkit.broadcastMessage(prefix + mColor + "Starter Food " + sColor + "has been changed to " + mColor +
                                 args[0] + sColor + " Steaks!");
                     } else {
-                        player.sendMessage(prefix + ChatColor.RED + "The argument has to be numeric!");
+                        player.sendMessage(prefix + ChatColor.RED + "The argument given is not a number or is too high.");
                     }
                 } else {
                     player.sendMessage(ChatColor.RED + "Usage: /starterfood (number)");
